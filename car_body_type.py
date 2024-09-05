@@ -6,7 +6,7 @@ from PIL import Image
 import time
 
 
-source_folder = "body_type/car_body_types"
+source_folder = "body_type/random_imgs"
 destination_folder = "body_type/classified"
 
 if os.path.exists(destination_folder) and os.path.isdir(destination_folder):

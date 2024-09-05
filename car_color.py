@@ -36,12 +36,12 @@ colors = [
 ]
 
 # Define paths
-image_folder = "color/15_colors_small"
+image_folder = "color/random_imgs"
 output_folder = "color/classified"
 
 if os.path.exists(output_folder) and os.path.isdir(output_folder):
     os.rmdir(output_folder)
-    
+
 # Ensure output folders exist
 for color in colors:
     os.makedirs(os.path.join(output_folder, color), exist_ok=True)
